@@ -108,9 +108,7 @@ class _CatBreedsScreenState extends State<CatBreedsScreen> {
 
     if (response.statusCode == 200) {
       final List<dynamic> data = json.decode(response.body);
-      
       List<Map<String, dynamic>> breeds = [];
-      
       for (var breed in data) {
         String imageUrl = _getPlaceholderImage(breed['name'] ?? 'Cat');
         

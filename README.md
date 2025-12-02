@@ -1,15 +1,14 @@
-# prueba1
+# API APK
 
-A new Flutter project.
+Esta apk consume dos APIS: Una API que muestra la lista de Pokemons con su imagen y sus características.
+La segunda API consume una API de razas de gatos de la siguiente página https://thecatapi.com/ que permite buscar un gato por su raza y muestra su foto y sus características.
 
-## Getting Started
+## Pasos para la configuración
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Crear dos archivos:
+cat_api.dart: Consumirá la API de gatos para mostrarlos por su raza.
+pokemon_api.dart: Consumirá la API de pokemones y los mostrará. 
+main.dart: Contiene un menú de opciones que permite al usuario elegir que API quiere consumir. 
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
